@@ -225,7 +225,7 @@ box-shadow: 3px 3px 7px gray;
     justify-content: space-around;
     
     margin-top: 200px;
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(230, 230, 230);
     padding: 80px 0px;
     font-size: 30px;
 }
@@ -352,6 +352,10 @@ margin-top: 100px;
 
 /* .................................... pricing .................................... */
 
+#pricing1{
+    background-color: rgb(230, 230, 230);
+    padding-bottom: 70px;
+}
 
 .pricing{
     text-align: center;
@@ -362,15 +366,16 @@ margin-top: 100px;
 .pricing-container{
     display: flex;
     justify-content: space-around;
-    margin-top: 60px;
+    
 
 }
 .pricing-container>.basic{
-    
+    margin-top: 100px;
     width: 30%;
     font-size: 20px;
     text-align: center;
     line-height: 70px;
+    height: fit-content;
 }
 .pricing-container>.basic>p:nth-child(1){
     font-size: 50px;
@@ -380,9 +385,11 @@ margin-top: 100px;
 }
 .pricing-container>.basic p{
     border: 1px rgb(190, 190, 190) solid;
+    background-color: white;
 }
 .pricing-container>.basic div{
     border: 1px solid rgb(190, 190, 190);
+    background-color: white;
 }
 .pricing-container>.basic>div button{
     padding: 13px 40px;
@@ -399,22 +406,27 @@ margin-top: 100px;
 
 .pricing-container>.pro{
     
-    width: 30%;
+    width: 33%;
+    margin-top: 60px;
+    
     font-size: 20px;
     text-align: center;
-    line-height: 70px;black
+    line-height: 80px;
+   
 }
 .pricing-container>.pro>p:nth-child(1){
     font-size: 50px;
     background-color: rgb(255, 123, 0);
     color: white;
-    padding: 20px 0px;
+    padding: 30px 0px;
 }
 .pricing-container>.pro p{
     border: 1px rgb(190, 190, 190) solid;
+    background-color: white;
 }
 .pricing-container>.pro div{
     border: 1px solid rgb(190, 190, 190);
+    background-color: white;
 }
 .pricing-container>.pro>div button{
     padding: 13px 40px;
@@ -432,11 +444,12 @@ margin-top: 100px;
 
 
 .pricing-container>.premium{
-    
+    margin-top: 100px;
     width: 30%;
     font-size: 20px;
     text-align: center;
     line-height: 70px;
+    height: fit-content;
 }
 .pricing-container>.premium>p:nth-child(1){
     font-size: 50px;
@@ -446,9 +459,11 @@ margin-top: 100px;
 }
 .pricing-container>.premium p{
     border: 1px rgb(190, 190, 190) solid;
+    background-color: white;
 }
 .pricing-container>.premium div{
     border: 1px solid rgb(190, 190, 190);
+    background-color: white;
 }
 .pricing-container>.premium>div button{
     padding: 13px 40px;
@@ -460,4 +475,9 @@ margin-top: 100px;
 .pricing-container>.premium>div button:hover{
     opacity: 0.7;
 }
+.pricing-container>div:nth-child(1n):hover{
+    box-shadow: 7px 7px 10px rgb(177, 177, 177);
+}
+
+
 
