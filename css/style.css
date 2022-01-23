@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sedgwick+Ave&family=Twinkle+Star&family=Vujahday+Script&display=swap');
+
+html{
+    height: 5500px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+}
+header{
+    background-color: rgb(255, 123, 0);
+padding: 10px;
+}
+header nav{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+    
+}
+header nav a{
+    font-size: 20px;
+color: black;
+}
+header nav div a{
+    margin: 0px 10px;
+    font-size: 20px;
+    color: black;
+}
+.logos a i{
+    margin-right: 5px;
+}
+
+/* .................................... background ............................... */
+
+.background img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+}
+.background .text{
+position: absolute;
+color: white;
+top: 300px;
+left: 50px;
+line-height: 80px
+}
+.text h1{
+    font-size: 80px;
+}
+.text p{
+    margin-top: 60px;
+    font-size: 30px;
+}
+.text h3{
+    background-color: rgb(255, 123, 0);
+    width: fit-content;
+    padding: 0px 30px;
+    border-radius: 20px 10px;
+    cursor: pointer;
+}
+.text h3:hover{
+    background-color: rgb(177, 220, 255);
+    color: black;
+}
+.background .icons {
+    position: absolute;
+    color: white;
+    top: 800px;
+    left: 50px;
+    font-size: 40px;
+
+
+}
+.icons i{
+ margin: 0px 20px;
+ padding: 10px 10px;
+ cursor: pointer;
+}
+.icons i:hover{
+    background-color: rgb(177, 220, 255);
+    border-radius: 10px;
+    color: black;
+}
+
+/* ............................... about the company .................................... */
+
+.small-text{
+    text-align: center;
+    margin-top: 30px;
+   
+    font-size: 30px;
+}
+.flex1{
+    display: flex;
+   margin-right: 20px;
+margin-top: 100px;
+margin-left: 20px;
+line-height: 30px;
+}
+.flex1>div>p{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.flex1>div>p i{
+
+margin-bottom: 60px;
+font-size: 70px;
+
+}
+.flex1>div>p:nth-child(2n){
+    font-size: 20px;
+}
+.flex1>div>p:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ......................... we know design ................................. */
+
+.flex2{
+    display: flex;
+    margin: 200px 20px;
+    justify-content: space-around;
+
+}
+.flex2 img{
+    width: 700px;   
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(146, 146, 146);
+}
+
+.flex2>div>p:nth-child(1){
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.flex2>div>p:nth-child(2){
+    width: 400px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.flex2>div>p:nth-child(3){
+    background-color: rgb(255, 123, 0);
+    width: fit-content;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.flex2>div>p> i{
+    margin-right: 10px;
+}
+.flex2>div>p:nth-child(3):hover{
+    background-color: rgb(177, 220, 255);
+}
+
+
+
+/* ...................................... The team ............................... */
+
+
+.team-text{
+    text-align: center;
+    font-size: 25px;
+    line-height: 90px;
+}
+.team-text p:nth-child(1){
+    font-size: 40px;
+}
+.four-pics{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.four-pics div img{
+    width: 450px;
+    filter: grayscale(0.8);
+}
+.four-pics>div:nth-child(1n){
+    border: 1px rgb(197, 197, 197) solid;
+    width: 450px;
+    height: 570px;
+    line-height: 40px;
+    box-shadow: 7px 7px 20px gray;
+}
+.four-pics>div>h2:nth-child(2){
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-decoration: underline rgb(197, 197, 197);
+}
+.four-pics>div>p:nth-child(1n + 3){
+    margin-left: 10px;
+}
+.four-pics>div>h3:nth-child(5){
+    border: 1px rgb(160, 160, 160) solid;
+    text-align: center;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(255, 123, 0);
+border-radius: 10px;
+box-shadow: 3px 3px 7px gray;
+}
+.four-pics>div>h3:nth-child(5):hover{
+    background-color: rgb(177, 220, 255);
+}
+
+
+
+/* ............................... Number ............................. */
+
+.numbers{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 200px;
+    background-color: rgb(180, 180, 180);
+    padding: 80px 0px;
+    font-size: 30px;
+}
+.numbers>div>p:nth-child(2){
+font-size: 20px;
+}
+
+.numbers>div>h3:nth-child(1){
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+
+
+/* ............................ our work .......................... */
+
+.our-work{
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 100px;
+}
+.eight-pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+.eight-pics img{
+    width: 450px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.eight-pics img:hover{
+    opacity: 0.8;
+}
+
+/* ............................... Our skills ............................. */
+
+.our-skills{
+background-color: rgb(230, 230, 230);
+display: flex;
+justify-content: space-between;
+margin-top: 200px;
+}
+
+.our-skills-text{
+    font-size: 25px;
+    width: 400px;
+    padding:100px 40px ;
+    line-height: 40px;
+}
+.our-skills-text p{
+    margin-bottom: 20px;
+}
+
+
+.rate-container{
+margin-right: 40px;
+margin-top: 100px;
+}
+.photo{
+   
+    width: 900px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.photo>.first-rate{
+    background-color: rgb(177, 177, 177);
+    margin-top: 10px;
+}
+.photo>.first-rate div{
+    background-color: rgb(102, 102, 102);
+    width: 800px;
+    text-align: center;
+    color: white;
+   
+} 
+.rate-container i{
+    margin-right: 10px;
+}
+
+
+
+.design{
+    width: 900px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.design>.second-rate{
+    background-color: rgb(177, 177, 177);
+    margin-top: 10px;
+}
+.design>.second-rate div{
+    background-color: rgb(102, 102, 102);
+    width: 750px;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+.photoshop{
+    width: 900px;
+    font-size: 20px;
+}
+.photoshop>.third-rate{
+    background-color: rgb(177, 177, 177);
+    margin-top: 10px;
+}
+.photoshop>.third-rate div{
+    background-color: rgb(102, 102, 102);
+    width: 700px;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+/* .................................... pricing .................................... */
+
+
+
