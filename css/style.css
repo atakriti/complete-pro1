@@ -100,6 +100,7 @@ line-height: 80px
     margin-top: 30px;
    font-weight: bold;
     font-size: 30px;
+    padding-top: 6rem;
 }
 .flex1{
     display: flex;
@@ -187,6 +188,8 @@ font-size: 70px;
     text-align: center;
     font-size: 25px;
     line-height: 90px;
+    padding-top: 6rem;
+    
 }
 .team-text p:nth-child(1){
     font-size: 40px;
@@ -266,6 +269,7 @@ font-size: 20px;
     font-size: 30px;
     line-height: 50px;
     margin-top: 100px;
+    padding-top: 6rem;
 }
 .our-work p:nth-child(1){
     font-weight: bold;
@@ -379,6 +383,7 @@ margin-top: 100px;
 #pricing1{
     background-color: rgb(216, 216, 216);
     padding-bottom: 70px;
+    
 }
 
 .pricing{
@@ -386,6 +391,7 @@ margin-top: 100px;
     margin-top: 80px;
     font-size: 30px;
     line-height: 60px;
+    padding-top: 6rem;
     
 }
 .pricing div p:nth-child(1){
