@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sedgwick+Ave&family=Twinkle+Star&family=Vujahday+Script&display=swap');
 
 html{
-    height: 6500px;
+    height: 7000px;
 }
 
 *{
@@ -10,6 +10,7 @@ html{
     box-sizing: border-box;
     font-family: 'Lobster', cursive;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 header{
     background-color: rgb(255, 123, 0);
@@ -479,5 +480,6 @@ margin-top: 100px;
     box-shadow: 7px 7px 10px rgb(177, 177, 177);
 }
 
+/* ................... contact ................... */
 
 
