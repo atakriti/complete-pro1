@@ -17,9 +17,10 @@ box-shadow: inset 6px 6px 18px rgb(255, 185, 119);
 position: sticky;
 top: 0;
 z-index: 1;
+width: 100%;
 }
 header nav{
-    
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 5px 10px;
@@ -141,10 +142,11 @@ font-size: 70px;
     display: flex;
     margin: 200px 20px;
     justify-content: space-around;
+    width: 100%;
 
 }
 .flex2 img{
-    width: 700px;   
+    width: 23rem;   
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgb(146, 146, 146);
 }
@@ -182,7 +184,9 @@ font-size: 70px;
 
 
 /* ...................................... The team ............................... */
-
+#team{
+   max-width:100%;
+}
 
 .team-text{
     text-align: center;
