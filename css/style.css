@@ -146,7 +146,7 @@ font-size: 70px;
 
 }
 .flex2 img{
-    width: 23rem;   
+    width: 25%;   
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgb(146, 146, 146);
 }
@@ -185,7 +185,7 @@ font-size: 70px;
 
 /* ...................................... The team ............................... */
 #team{
-   max-width:100%;
+   width:100vw;
 }
 
 .team-text{
@@ -202,16 +202,16 @@ font-size: 70px;
 .four-pics{
     display: flex;
     justify-content: space-around;
-    
+    width: 100%;
     
 }
 .four-pics div img{
-    width: 450px;
+    width: 100%;
     filter: grayscale(0.8);
 }
 .four-pics>div:nth-child(1n){
     border: 1px rgb(197, 197, 197) solid;
-    width: 450px;
+    width: 24%;
     height: 570px;
     line-height: 40px;
     box-shadow: 7px 7px 20px gray;
@@ -227,7 +227,7 @@ font-size: 70px;
 .four-pics>div>h3:nth-child(5){
     border: 1px rgb(160, 160, 160) solid;
     text-align: center;
-    width: 420px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -320,20 +320,22 @@ margin-top: 200px;
 .rate-container{
 margin-right: 40px;
 margin-top: 100px;
+width: 100%;
 }
 .photo{
    
-    width: 900px;
+    width: 100%;
     font-size: 20px;
     margin-bottom: 20px;
 }
 .photo>.first-rate{
     background-color: rgb(177, 177, 177);
     margin-top: 10px;
+    width: 100%;
 }
 .photo>.first-rate div{
     background-color: rgb(102, 102, 102);
-    width: 800px;
+    width: 90%;
     text-align: center;
     color: white;
    
@@ -345,17 +347,18 @@ margin-top: 100px;
 
 
 .design{
-    width: 900px;
+    width: 100%;
     font-size: 20px;
     margin-bottom: 20px;
 }
 .design>.second-rate{
     background-color: rgb(177, 177, 177);
     margin-top: 10px;
+    width: 100%;
 }
 .design>.second-rate div{
     background-color: rgb(102, 102, 102);
-    width: 750px;
+    width: 85%;
     text-align: center;
     color: white;
 
@@ -364,16 +367,17 @@ margin-top: 100px;
 
 
 .photoshop{
-    width: 900px;
+    width: 100%;
     font-size: 20px;
 }
 .photoshop>.third-rate{
     background-color: rgb(177, 177, 177);
     margin-top: 10px;
+    width: 100%;
 }
 .photoshop>.third-rate div{
     background-color: rgb(102, 102, 102);
-    width: 700px;
+    width: 75%;
     text-align: center;
     color: white;
 
