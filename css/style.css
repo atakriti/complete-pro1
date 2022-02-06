@@ -207,12 +207,13 @@ font-size: 70px;
   
     
 }
+
 .four-pics div img{
     width: 100%;
     filter: grayscale(0.8);
 }
 .four-pics>div:nth-child(1n){
-    border: 1px rgb(197, 197, 197) solid;
+    border: 1px rgb(216, 216, 216) solid;
     width: 24%;
     height: 59vh;
     line-height: 40px;
