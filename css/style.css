@@ -726,7 +726,7 @@ width: 90vw;
 }
 .four-pics>div:nth-child(1n){
     width: 45vw;
-    height: 45vh;
+    height: 55vh;
     font-size: 15px;
 
 }
@@ -801,7 +801,7 @@ width: 50vw;
    }
    .four-pics>div:nth-child(1n){
        width: 45vw;
-       height: 45vh;
+       height: 53vh;
        font-size: 15px;
    
    }
