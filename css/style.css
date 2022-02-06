@@ -435,7 +435,7 @@ width: 100%;
     background-color: white;
 }
 .pricing-container>.basic>div button{
-    padding: 13px 40px;
+    padding: 13px 30px;
     color: white;
     background-color: black;
     border-radius: 10px;
@@ -472,7 +472,7 @@ width: 100%;
     background-color: white;
 }
 .pricing-container>.pro>div button{
-    padding: 13px 40px;
+    padding: 13px 30px;
     color: white;
     background-color: black;
     border-radius: 10px;
@@ -509,7 +509,7 @@ width: 100%;
     background-color: white;
 }
 .pricing-container>.premium>div button{
-    padding: 13px 40px;
+    padding: 13px 30px;
     color: white;
     background-color: black;
     border-radius: 10px;
@@ -614,7 +614,7 @@ input::placeholder{
 ........................................................
 ...................................................... */
 
-@media only screen and (max-width:433px){
+@media only screen and (max-width:400px){
     /* body{
         width: 93vw;
     } */
@@ -655,21 +655,27 @@ header{
 .background{
     width: 100vw;
 }
+.background .text{
+    left: 0;
+    padding-left: 20px;
+}
 .background>.text>h1{
 font-size: 30px;
 }
 .background>.text>p{
-    font-size: 17px;
+    width: 95vw;
+    font-size: 14px;
+    left: 0;
 }
 .background>.text>h3{
-    font-size:15px ;
-    padding: 10px 10px;
+    font-size:14px ;
+    padding: 5px 10px;
 }
 .background .icons{
     
     width: 100vw;
     left: 0;
-    font-size: 30px;
+    font-size: 20px;
     
 }
 /* .................. about the company ................. */
@@ -690,6 +696,13 @@ font-size: 30px;
    height: 50vh;
 }
  /* ................... we know desgin .............. */
+ .flex2>div{
+     margin-left: 30px;  
+ }
+ .flex2>div>p:nth-child(2){
+    
+width: 90vw;
+ }
  .flex2{
      
      flex-direction: column;
@@ -731,6 +744,12 @@ font-size: 30px;
 .pricing-container>.premium>p:nth-child(1){
     font-size:30px ;
 }
+.pricing-container>.basic>div button{
+    height: 5vh;
+}
+
+
+
 
 
 }
@@ -738,7 +757,7 @@ font-size: 30px;
 .........................................................
 .............. Media query 768............................
 .......................................................... */
-@media only screen and (min-width:434px) and (max-width:768px){
+@media only screen and (min-width:401px) and (max-width:768px){
     section{
         width: 100vw;
     }
