@@ -764,11 +764,30 @@ width: 90vw;
     header{
         width: 100vw;
     }
+    /* ...................... background ................ */
+    .text>h1{
+        font-size: 40px;
+    }
+    .text>p{
+        font-size: 25px;
+    }
+    /* ................ we know design ............... */
+
     .flex2{
         width: 100vw;
         margin: 200px 0px;
+     
     
     }
+    .flex2>div>p:nth-child(1){
+width: 50vw;
+
+    }
+    .flex2>div>p:nth-child(2){
+font-size: 15px;
+width: 50vw;
+    }
+
     .flex2>img{
         margin: 0;
     }
