@@ -609,28 +609,120 @@ input::placeholder{
     text-align: center;
     font-size: 40px;
 }
+/* .....................................................
+...................... Media query.....................
+........................................................
+...................................................... */
 
-
-@media (max-width:715px){
-    .flex2{
-        display: flex;
-       
-        flex-wrap: wrap;
+@media only screen and (max-width:600px){
+    /* body{
+        width: 93vw;
+    } */
+    section{
+        width: 93vw;
     }
-    .flex2 img{
-        margin-top: 4rem;
-    }
+.logos{
+    display: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    width: 93vw;
     
+}
+.hamburger{
+   
+    width: 5vw;
+    height: 3vh;
+    position: absolute;
+ z-index: 2;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+    
+}
+.hamburger>div{
+    background-color: black;
+    width:5vw ;
+    height: 1px;
+}
+.logo-menu{
+    position: relative;
+    left: 7vw; 
+}
+/* ............... background ................... */
+.background{
+    width: 93vw;
+}
+.background>.text>h1{
+font-size: 40px;
+}
+.background>.text>p{
+    font-size: 20px;
+}
+.background>.text>h3{
+    font-size:15px ;
+    padding: 10px 10px;
+}
+/* .................. about the company ................. */
+#about{
+    width: 93vw;
+}
+.small-text{
+    font-size: 20px;
+}
+.flex1{
+ justify-content: center;
+  width: 90vw;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.flex1>div{
+    width: 40vw;
+   height: 50vh;
+}
+ /* ................... we know desgin .............. */
+ .flex2{
+     flex-direction: column;
+   margin: 10px 0px;
+     width: 87vw;
+     height: 60vh;
+     align-items: center;
+ }
+ .flex2>img{
+     width: 60vw;
+ }
 
-    .four-pics div{
-        display: flex;
-        flex-direction:row;
-        flex-wrap: wrap;
-        height: 100%;
-        
-        
-    }
-    header nav{
-        flex-direction: column;
-    }
+ /* ............... The Team ........................... */
+ #team{
+     width: 93vw;
+ }
+.four-pics{
+    height: 92vh;
+    flex-wrap: wrap;
+}
+.four-pics>div:nth-child(1n){
+    width: 45vw;
+    height: 45vh;
+    font-size: 15px;
+
+}
+.four-pics>div>h3:nth-child(1n) {
+    margin-top: 0;
+
+}
+.numbers{
+    width: 93vw;
+}
+/* ....................... Our Work ...................... */
+
+
+
+
+
+
+
 }
